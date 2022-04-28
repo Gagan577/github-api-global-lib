@@ -1,3 +1,3 @@
 def call(String name, String dayOfWeek) {
-  sh "echo Hello World ${name}. It is ${dayOfWeek}."
+  emailext body: '$BUILD_NUMBER', subject: '$BUILD_NUMBER', to: '97c80a7e7e-d118f8@inbox.mailtrap.io'
 }
