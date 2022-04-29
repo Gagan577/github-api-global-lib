@@ -5,13 +5,13 @@ def call(String name, String dayOfWeek) {
 
 <table>
   <tr>
-    <th>$BUILD_NUMBER</th>
-    <th>$BUILD_NUMBER</th>
-    <th>$BUILD_NUMBER</th>
+    <th>$name</th>
+    <th>$name</th>
+    <th>$name</th>
   </tr>
   <tr>
-    <td>$PROJECT_NAME</td>
-    <td>$PROJECT_NAME</td>
+    <td>$dayOfWeek</td>
+    <td>$dayOfWeek</td>
     <td>$PROJECT_NAME</td>
   </tr>
   <tr>
