@@ -1,5 +1,5 @@
 def call(String name, String dayOfWeek) {
-  emailext body: '''<!DOCTYPE html>
+  emailext body: '''
 
 
 
